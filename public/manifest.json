@@ -1,0 +1,36 @@
+{
+  "name": "Pulse Messenger",
+  "short_name": "Pulse",
+  "description": "Next-Gen Real-time Encrypted Messenger with AI, Voice Notes & Stories",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0b0f",
+  "theme_color": "#7c6aff",
+  "categories": ["social", "communication"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "short_name": "Chat",
+      "description": "Start a new conversation",
+      "url": "/#action=new_chat",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Add Status",
+      "short_name": "Status",
+      "description": "Share a 24h story",
+      "url": "/#action=new_status",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
