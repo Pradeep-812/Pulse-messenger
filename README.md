@@ -3,6 +3,7 @@
 Full-featured real-time backend for the Pulse Messenger web app.
 Built with **Node.js + Express + Socket.IO + NeDB** (zero-config file-based database).
 
+Off Campus code 25UZS7
 ---
 
 ## 📁 Project Structure
